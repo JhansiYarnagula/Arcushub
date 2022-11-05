@@ -48,24 +48,30 @@ section
 }
 #products
 {
-  background-color: black;
+  background-color: white;
 
 }
 #about
 {
   background-color:blue;
+  margin: 150px 0px;
 }
 #contact
 {
   background-color: skyblue;
 }
+#productheading
+{
+  font-family: 'Bebas Neue';
 
+}
 .row
 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 0;
+  margin: 120px 0;
+  margin-left: 40px;
 }
 .col-1
 {
@@ -127,7 +133,9 @@ font-style:normal;
 font-weight: 200;
 font-size: 16px;
 line-height: 19px;
+padding-top: 10px;
 padding-bottom: 20px;
+
 color: #212529;
 
 
@@ -147,24 +155,125 @@ margin-left: 100px;
 position:  absolute;
 width: 250px;
 height: 350px;
-padding-top: 60px ;
+padding-top: 0px ;
 
 
 
 
 }
-button {
-			color: #ffffff;
-			background-color: #1a1a1a;
-			font-size: 20px;
-			border: 0;
-			padding: 15px 20px;
-			letter-spacing: 1px;
-			cursor: pointer;
-      margin-bottom: 30px;
-      margin-right: 20px;
 
-		}
-		button:hover {
+.brand
+{
 
-		}
+  display:flex;
+  flex-direction:column;
+
+}
+.brand a img
+{
+  margin-left:40px;
+}
+.brand h3
+{
+  font-family:'Bebas Neue';
+   letter-spacing:2.5px;
+   color:#212529;
+   margin-left:20px;
+}
+.btn1
+{
+  width: 163px;
+height: 51px;
+background: #212529;
+border-radius: 5px;
+ font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+.btn2
+{
+  box-sizing: border-box;
+position: absolute;
+width: 163px;
+height: 51px;
+background: #DEE2E6;
+border: 2px solid #212529;
+border-radius: 5px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+  margin:0 0 0 10px;
+}
+.btn2:hover{
+  background-color:#212529;
+  color: #FFFFFF;
+  transition-duration: 0.4s;
+}
+.product-container h1
+{
+  letter-spacing:0.25em;
+  text-align: center;
+  padding-top: 107px;
+font-family: ' Bebas Neue';
+
+}
+.mainproduct
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500;
+  width: 90vw;
+  background-color: #212529;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 64px;
+
+}
+.productphoto img{
+  width:368px;
+  height:430px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.description h1
+{
+  color:white;
+  font-family: 'Bebas Neue';
+  font-weight:200;
+  font-size:20px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+margin-left: 15px;
+
+
+
+
+}
+.desc
+{
+  padding-left: 45px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+.desc h3
+{
+  padding: 5px 0px;
+  font-family: 'Montserrat';
+
+}
+.desc p
+{
+  padding: 5px 0px;
+}
