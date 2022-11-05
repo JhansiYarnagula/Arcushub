@@ -1,0 +1,170 @@
+*{
+  margin:0;
+  padding: 0;
+
+}
+body{
+  font-size:
+  font-family:'Montserrat', sans-serif;;
+}
+div,section, span, ul, li, a,header {
+  box-sizing: border-box;
+}
+
+header
+{
+/*  width: 100%;*/
+/*  background-color: red;*/
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+
+#menulist li {
+list-style: none;
+display: inline-block;
+margin: 20px;
+}
+
+#menulist li a
+{
+  color:black;
+  text-decoration: none;
+font-size: 15px;
+font-family: 'Montserrat';
+font-weight: bold;
+}
+section
+{
+  width: 100%;
+  height: 100vh;
+  float: left;
+}
+#home
+{
+  background-color: white;
+
+}
+#products
+{
+  background-color: black;
+
+}
+#about
+{
+  background-color:blue;
+}
+#contact
+{
+  background-color: skyblue;
+}
+
+.row
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+.col-1
+{
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 50px;
+}
+.col-1 h1
+{
+
+/*  position: absolute;*/
+  width: 510px;
+  height: 154px;
+  left: 70px;
+  top: 281px;
+
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+
+  background: linear-gradient(96.26deg, #212529 1.57%, rgba(32, 58, 67, 0.9) 51.01%, rgba(44, 83, 100, 0.8) 100.46%, rgba(44, 83, 100, 0.8) 100.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+
+background: linear-gradient(96.26deg, #212529 1.57%, rgba(32, 58, 67, 0.9) 51.01%, rgba(44, 83, 100, 0.8) 100.46%, rgba(44, 83, 100, 0.8) 100.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+  /*font-size: 50px;
+  font-weight: 100;
+  margin: 20px 0 10px*/
+}
+.col-1 p
+{
+  /*font-size: 17px;
+  font-weight: 100;
+  margin-top:10px;
+  margin-bottom: 15px;*/
+  /*position: absolute;*/
+width: 585px;
+height: 57px;
+left: 71px;
+top: 439px;
+
+font-family: 'Montserrat';
+font-style:normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 19px;
+padding-bottom: 20px;
+color: #212529;
+
+
+}
+.col-2
+{
+   position:relative;
+   flex-basis: 60%;
+   display:flex;
+   align-items:center;
+
+}
+.col-2 img{
+
+
+margin-left: 100px;
+position:  absolute;
+width: 250px;
+height: 350px;
+padding-top: 60px ;
+
+
+
+
+}
+button {
+			color: #ffffff;
+			background-color: #1a1a1a;
+			font-size: 20px;
+			border: 0;
+			padding: 15px 20px;
+			letter-spacing: 1px;
+			cursor: pointer;
+      margin-bottom: 30px;
+      margin-right: 20px;
+
+		}
+		button:hover {
+
+		}
