@@ -1,0 +1,169 @@
+#contactus
+{
+    width: 1300px;
+    height:800px;
+    background-color:white;
+    padding: 100px;
+
+
+}
+.container{
+  margin:auto;
+  position: relative;
+  width: 1011px;
+  height:580px;
+  background: linear-gradient(108.1deg, #2C5364 0%, #203A43 18%, #0F2027 100%);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+
+}
+.container h1{
+position: absolute;
+left:35%;
+  top:2%;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+line-height: 32px;
+letter-spacing: 0.2em;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.line{
+  position: absolute;
+  width: 286px;
+  left:33%;
+  top:14%;
+  height: 0px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-0.18deg);
+}
+.content{
+  position:absolute;
+  top:16%;
+  height:100%;
+  width:100%;
+}
+.left{
+  position:absolute;
+  /* width:50%; */
+/*   background-color:red; */
+  /* height:70%; */
+  /* padding:10%; */
+  width: 70%;
+  padding: 40px;
+
+}
+.right{
+  position:absolute;
+ left: 55%;
+  top:5%;
+
+}
+
+
+.input{ display:block;
+  border:none;
+  border-bottom:1px solid #ccc;
+  width:60%;
+  line-height: 28px;
+  background-color: #0F2027;
+}
+.container p{
+  color:white;
+}
+.button{
+width: 167px;
+height: 43px;
+color:white;
+background: rgba(222, 226, 230, 0.8);
+  border:none;
+}
+.rectangle
+{
+
+width: 330px;
+height: 354px;
+background: rgba(230, 234, 247, 0.8);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+#contact_logo{
+   position: absolute;
+   left: 108.03px;
+       top: 70px;
+
+}
+#contact_logo_name
+{
+  position: absolute;
+  font-family: 'MuseoModerno';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31.4423px;
+  line-height: 50px;
+  left: 66px;
+      top: 199.1px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #212529;
+}
+.contact_circle1{
+  position: absolute;
+width: 58.79px;
+height: 56.83px;
+left: 39px;
+top: 288px;
+
+/* Primary/Dark Gradient */
+
+background: linear-gradient(90deg, #0F2027 0%, #203A43 75.72%, #2C5364 100%);
+border-radius: 84.9317px;
+}
+.contactsicons1
+{
+  position: absolute;
+  top: 19px;
+  left: 17px;
+
+}
+.contact_circle2{
+  position: absolute;
+width: 58.79px;
+height: 56.83px;
+left: 140px;
+top: 288px;
+/* Primary/Dark Gradient */
+
+background: linear-gradient(90deg, #0F2027 0%, #203A43 75.72%, #2C5364 100%);
+border-radius: 84.9317px;
+}
+.contactsicons2
+{
+  position: absolute;
+  top: 19px;
+  left: 17px;
+
+}
+.contact_circle3{
+  position: absolute;
+width: 58.79px;
+height: 56.83px;
+left: 239px;
+top: 288px;
+
+/* Primary/Dark Gradient */
+
+background: linear-gradient(90deg, #0F2027 0%, #203A43 75.72%, #2C5364 100%);
+border-radius: 84.9317px;
+}
+.contactsicons3
+{
+  position: absolute;
+  top: 19px;
+  left: 17px;
+
+}
