@@ -3,12 +3,12 @@
     width: 1300px;
     height:800px;
     background-color:white;
-    padding: 100px;
+    /* padding: 100px; */
 
 
 }
 .container{
-  margin:auto;
+  margin:100px;
   position: relative;
   width: 1011px;
   height:580px;
@@ -78,7 +78,11 @@ width: 167px;
 height: 43px;
 color:white;
 background: rgba(222, 226, 230, 0.8);
-  border:none;
+border:none;
+
+font-family: 'Lato';
+
+
 }
 .rectangle
 {
